@@ -23,6 +23,10 @@
     " ",
     " "
   ],
+  "noPrefix": {
+    "enable": false,
+    "notes": "true = only bot admins can use commands without prefix | false = everyone must use prefix"
+  },
   "reactUnsend": {
     "enable": true,
     "onlyAdmin": true,
@@ -153,9 +157,5 @@
     "autoMarkDelivery": false,
     "autoReconnect": true,
     "notes": "Docs: https://github.com/ntkhang03/fb-chat-api/blob/master/DOCS.md#apisetoptionsoptions"
-  },
-  "noPrefix": {
-    "enable": false,
-    "notes": "true = only bot admins can use commands without prefix | false = everyone must use prefix"
   }
 }
