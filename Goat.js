@@ -131,7 +131,6 @@ global.client = {
 };
 
 const utils = require("./utils.js");
-require("./bot/fontLoader.js")();
 global.utils = utils;
 const { colors } = utils;
 
